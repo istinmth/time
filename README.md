@@ -16,9 +16,13 @@ To run this script, you need to have the following:
 1. Download the Unix Executable from the releases page.
 2. You can move it to any preferred folder, like `Applications`, `Documents`, etc. Remember where you moved it!
 3. Open the macOS terminal. You can do this with simply searching for it in spotlight, or opening it from `/Applications/Utilities/Terminal.app`
-4. You need to set the permissions for this executable. Using the terminal, make it runnable by writing ```chmod +x /Applications/time-unix``` in the terminal. Of course, the path is where your file actually is: `chmod +x /Downloads/time-unix` if it is in the Downloads folder, etc.
-6. After this, you need to navigate to the folder the app is in. You can do this by typing `cd Applications`, `cd Downloads`, etc., wherever the file is.
-7. When you are there, you will be able to run the executable. Run it with this command: `sudo ./time-unix`
+4. You need to set the permissions for this executable. Using the terminal, make it runnable by writing
+```
+chmod +x /Applications/time-unix
+```
+in the terminal. Of course, the path is where your file actually is: `chmod +x /Downloads/time-unix` if it is in the Downloads folder, etc.
+7. After this, you need to navigate to the folder the app is in. You can do this by typing `cd Applications`, `cd Downloads`, etc., wherever the file is.
+8. When you are there, you will be able to run the executable. Run it with this command: `sudo ./time-unix`
 Done
 
 ### Windows
