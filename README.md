@@ -13,17 +13,25 @@ To run this script, you need to have the following:
 ## How to Use
 
 ### macOS
-1. Download the Unix Executable from the releases page.
-2. You can move it to any preferred folder, like `Applications`, `Documents`, etc. Remember where you moved it!
-3. Open the macOS terminal. You can do this with simply searching for it in spotlight, or opening it from `/Applications/Utilities/Terminal.app`
-4. You need to set the permissions for this executable. Using the terminal, make it runnable by writing
+#### Using this on macOS needs a little setup.
+1. Download the DMG from the releases page, and open it.
+2. Drag the app to the applications folder.
+3. Open the macOS terminal. You can do this by simply searching for it in spotlight, or opening it from `/Applications/Utilities/Terminal.app`
+4. You need to set an 'executable' permission for this executable. Using the terminal, make it runnable by writing
 ```
 chmod +x /Applications/time-unix
 ```
-in the terminal. Of course, the path is where your file actually is: `chmod +x /Downloads/time-unix` if it is in the Downloads folder, etc.
-7. After this, you need to navigate to the folder the app is in. You can do this by typing `cd Applications`, `cd Downloads`, etc., wherever the file is.
-8. When you are there, you will be able to run the executable. Run it with this command: `sudo ./time-unix`
-Done
+in the terminal.
+5. After this, change the terminal to the `Applications` directory, with the
+```
+cd Applications
+```
+command
+6. Launch the app with
+```
+sudo ./time-unix
+```
+Done!
 
 ### Windows
 1. Download the Windows Executable from the releases page.
