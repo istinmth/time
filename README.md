@@ -17,11 +17,10 @@ To run this script, you need to have the following:
 1. Download the DMG from the releases page, and open it.
 2. Drag the app to the applications folder.
 3. Open the macOS terminal. You can do this by simply searching for it in spotlight, or opening it from `/Applications/Utilities/Terminal.app`
-4. You need to set an 'executable' permission for this executable. Using the terminal, make it runnable by writing
+4. You need to set an 'executable' permission for this file. In the terminal, write:
 ```
 chmod +x /Applications/time-unix
 ```
-in the terminal.
 5. After this, change the terminal to the `Applications` directory, with the
 ```
 cd Applications
