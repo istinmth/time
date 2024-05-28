@@ -43,9 +43,9 @@ Note: Running with root/admin privileges is necessary to modify the system time.
 
 - Press `Ctrl+C` to stop the script BOTH on Windows and on macOS. NOT `⌘ + c`.
 This will reset your system time to the actual internet time. If you do not, or if you exit by clicking the close button, 
-- Be cautious when running this script, as it modifies the system time. Make sure to reset the time after running the script to avoid any potential issues. If it would not reset automatically for some reason, you can always use:
+- Be cautious when running this script, as it modifies the system time. Make sure to reset the time after running the script to avoid any potential issues. If it would not reset automatically for some reason, you can always use the following code in the PowerShell terminal (or just reset the time in the settings):
 ```
-sudo sntp -sS time.cloudflare.com
+sudo sntp -sS time.windows.com
 ```
 ```c
 Start-Service w32time
